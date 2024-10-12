@@ -85,7 +85,7 @@ export const ContactSection = () => {
         <SectionTitle title="CONTACT" />
       </div>
 
-      <div className="flex lg:flex-row flex-col-reverse justify-between">
+      <div className="flex lg:flex-row flex-col-reverse justify-between relative z-10">
         {/* Contact Form */}
         <div className="flex flex-col">
           <form onSubmit={sendEmail} className="space-y-6 lg:w-[28rem] w-full">
@@ -101,7 +101,7 @@ export const ContactSection = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full h-7 p-2 bg-black border-2 text-sm border-customBlue text-white outline-none"
+                className="w-full h-7 p-2 bg-transparent border-2 text-sm border-customBlue text-white outline-none"
               />
             </div>
             {showErrors && errors.name && (
@@ -120,7 +120,7 @@ export const ContactSection = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full h-7 p-2 bg-black border-2 text-sm border-customBlue text-white outline-none"
+                className="w-full h-7 p-2 bg-transparent border-2 text-sm border-customBlue text-white outline-none"
               />
             </div>
             {showErrors && errors.email && (
@@ -135,7 +135,7 @@ export const ContactSection = () => {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                className="w-full h-48 p-2 bg-black border-2 text-sm border-customBlue text-white resize-none outline-none"
+                className="w-full h-48 p-2 bg-transparent border-2 text-sm border-customBlue text-white resize-none outline-none"
               />
             </div>
             {showErrors && errors.message && (
@@ -179,6 +179,8 @@ export const ContactSection = () => {
               </a>
               <a
                 href="#"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center text-lg justify-center w-44 py-2 bg-customBlue hover:bg-opacity-80 transition duration-300"
               >
                 <SiInstagram size={25} className="mr-2" /> Instagram
@@ -187,12 +189,16 @@ export const ContactSection = () => {
             <div className="flex gap-7 md:flex-row flex-col items-center justify-center">
               <a
                 href="#"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center text-lg justify-center w-44 py-2 bg-customBlue hover:bg-opacity-80 transition duration-300"
               >
                 <SiX size={25} className="mr-2" /> Twitter
               </a>
               <a
-                href="#"
+                href="mailto:Oladelebee@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center text-lg justify-center w-44 py-2 bg-customBlue hover:bg-opacity-80 transition duration-300"
               >
                 <SiGmail size={25} className="mr-2" /> E-Mail

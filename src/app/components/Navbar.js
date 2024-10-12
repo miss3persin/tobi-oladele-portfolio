@@ -65,7 +65,7 @@ export const Navbar = () => {
       <div className='container px-10 py-4 flex items-center justify-between'>
         {/* Logo */}
         <div
-          className='overflow-hidden flex items-center justify-center w-36 h-10 cursor-pointer'
+          className='overflow-hidden flex items-center justify-center w-28 md:w-36 h-10 cursor-pointer'
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           <Image src='/logo.png' alt='logo' width={1000} height={1000} className='object-contain w-full h-full' />
