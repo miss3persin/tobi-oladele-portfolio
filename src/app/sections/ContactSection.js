@@ -158,7 +158,7 @@ export const ContactSection = () => {
           className="flex lg:flex-col md:flex-row flex-col justify-between items-center lg:items-end z-10 relative mb-20 lg:mb-0"
           data-aos="fade-left"
           data-aos-duration="1000"
-          data-aos-delay="1000"
+          data-aos-delay="500"
         >
           <p className="mb-10 md:mb-0 lg:mb-6 text-sm lg:text-xl xl:text-2xl text-customWhite text-center md:text-left lg:text-right font-medium max-w-64 lg:max-w-96 xl:max-w-[32rem]">
             GOT ANY PROJECTS YOU WANT TO WORK ON? WANT TO COLLAB? THEN DON'T HESITATE TO GET IN TOUCH

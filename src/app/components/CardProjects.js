@@ -72,7 +72,7 @@ export const CardProjects = ({ imageUrl, title, description, githubLink }) => {
       </div>
 
       {/* Title and Description Section */}
-      <div className=" w-60 md:w-72 xl:w-[21rem] 2xl:w-[27rem] md:h-44 xl:h-52 2xl:h-72 mb-8 md:mb-12 border border-t-0 border-customBlue bg-black text-customWhite px-6 2xl:px-8 py-5 xl:py-7 2xl:py-10">
+      <div className=" w-60 md:w-72 xl:w-[21rem] 2xl:w-[27rem] h-56 md:h-44 xl:h-52 2xl:h-72 mb-8 md:mb-12 border border-t-0 border-customBlue bg-black text-customWhite px-6 2xl:px-8 py-5 xl:py-7 2xl:py-10">
         <p className="font-semibold mb-3 2xl:mb-5 text-center md:text-sm xl:text-base 2xl:text-xl">{title}</p>
         <p className="text-[0.8rem] xl:text-sm font-light 2xl:font-normal 2xl:text-lg text-center md:text-left">{description}</p>
       </div>

@@ -103,7 +103,7 @@ export const ProjectSection = () => {
     animate={{ opacity: 1, y: 0 }} // Animate to original position
     exit={{ opacity: 0, y: -30 }} // Exit slightly upwards
     transition={{ type: 'spring', stiffness: 200, damping: 30 }} // Spring transition for a smooth effect
-    className="flex flex-wrap justify-between gap-4 relative z-10"
+    className="flex flex-wrap justify-center md:justify-between gap-4 relative z-10"
     data-aos="fade-up"
     data-aos-easing="ease-out-cubic"
      data-aos-duration="1000"
