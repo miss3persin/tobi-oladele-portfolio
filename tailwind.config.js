@@ -9,6 +9,12 @@ module.exports = {
     container: {
       center: true,
     },
+    extend: {
+      colors: {
+        customBlue: '#B0C4DE',   // Your blue color
+        customWhite: '#FFFFFF',  // Your light color
+      },
+    },
     screens: {
       sm: '640px',
       md: '768px',

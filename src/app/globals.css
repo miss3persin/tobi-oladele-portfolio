@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+.text-glow {
+    text-shadow: 
+        0 0 5px #0033CC,   /* Soft glow */
+        0 0 10px #0033CC,  /* Medium glow */
+        0 0 15px #0033CC;  /* Strong glow */
+}
+
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #B0C4DE; /* Scrollbar thumb color */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #000000; /* Background of the track */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin; /* You can set 'auto' or 'thin' */
+    scrollbar-color: #B0C4DE #000000; /* Scrollbar thumb color, scrollbar track color */
+  }
+  
