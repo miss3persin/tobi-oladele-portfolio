@@ -26,8 +26,8 @@ export const AboutSection = () => {
           data-aos="fade-right"
           data-aos-easing="ease-out-cubic"
            data-aos-duration="1000">
-            <p>Hi, I'm Tobi Oladele, a machine learning engineer and SQL expert with 3 years of experience turning data into actionable insights and building intelligent systems and models.</p>
-            <p>I specialize in areas like NLP, deep learning, and predictive modeling, as well as SQL that solve complex problems and drive real-world impact. My approach is centered on using data to create scalable, efficient solutions that adapt to changing environments and continuously improve performance. I am passionate about pushing the boundaries of AI to deliver innovative results.</p>
+            <p>Hi, I'm Tobi Oladele, a machine learning engineer and data science expert with 3 years of experience turning data into actionable insights and building intelligent systems and models.</p>
+            <p>I specialize in areas like Deep learning, and predictive modeling, as well as the use of scikit-learn and SQL that solve complex problems and drive real-world impact. My approach is centered on using data to create scalable, efficient solutions that adapt to changing environments and continuously improve performance. I am passionate about the use of AI through data science to deliver innovative results.</p>
           </div>
             
           <div className="gap-6 relative z-10"
