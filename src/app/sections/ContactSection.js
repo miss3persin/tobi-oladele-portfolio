@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { SectionTitle } from '../components/SectionTitle';
-import { SiGithub, SiInstagram, SiX, SiGmail } from 'react-icons/si';
+import { SiGithub, SiInstagram, SiGmail, SiX } from 'react-icons/si';
+import { AiFillLinkedin } from 'react-icons/ai';
 import send_btn from '../../../public/send-outline (1).svg';
 import Image from 'next/image';
 import emailjs from 'emailjs-com';
@@ -170,15 +171,15 @@ export const ContactSection = () => {
           <div className="flex flex-col gap-7">
             <div className="flex md:flex-row flex-col gap-7 items-center justify-center">
               <a
-                href="https://github.com/Tobi-Oladele"
+                href="https://x.com/torbyOladele"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-lg justify-center w-44 py-2 bg-customBlue hover:bg-opacity-80 transition duration-300"
               >
-                <SiGithub size={25} className="mr-2" /> GitHub
+                <SiX size={25} className="mr-2" /> Twitter
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/torby.o/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-lg justify-center w-44 py-2 bg-customBlue hover:bg-opacity-80 transition duration-300"
@@ -188,12 +189,12 @@ export const ContactSection = () => {
             </div>
             <div className="flex gap-7 md:flex-row flex-col items-center justify-center">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/tobioladele/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-lg justify-center w-44 py-2 bg-customBlue hover:bg-opacity-80 transition duration-300"
               >
-                <SiX size={25} className="mr-2" /> Twitter
+                <AiFillLinkedin size={25} className="mr-2" /> LinkedIn
               </a>
               <a
                 href="mailto:Oladelebee@gmail.com"
