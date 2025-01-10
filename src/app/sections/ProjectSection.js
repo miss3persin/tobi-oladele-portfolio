@@ -8,40 +8,40 @@ import Image from 'next/image';
 
 const mlprojectsData = [
     {
-        imageUrl: 'https://images.unsplash.com/photo-1523284998774-f6d3960be911?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        title: 'Potato-Leaf-Classification-Model',
-        description: 'Developed a machine learning model to classify different diseases affecting potato leaves using image data. This project helps farmers identify issues early, preventing crop losses and improving yield.',
-        githubLink: 'https://github.com/Tobi-Oladele/Potato-Leaf-Classification-Model'
+        imageUrl: 'https://plus.unsplash.com/premium_photo-1681842855252-9216825229d7?q=80&w=1662&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: 'Object Recognition',
+        description: 'Developed an object recognition system using ResNet50, achieving high accuracy in detecting and classifying objects across diverse categories. Ideal for real-time and automated applications.',
+        githubLink: 'https://github.com/Tobi-Oladele/ResNet50-Object-Recognition'
     },
     {
         imageUrl: 'https://images.unsplash.com/photo-1516239482977-b550ba7253f2?q=80&w=1388&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        title: 'Face-Recognition',
-        description: 'Built an advanced facial recognition system capable of accurately identifying individuals in real-time. The model was trained to handle various lighting conditions and facial angles for security applications.',
-        githubLink: 'https://github.com/Tobi-Oladele/face-recognition'
+        title: 'Face Recognition',
+        description: 'Designed a face recognition model using a Siamese neural network to identify and verify individuals by comparing facial features, ensuring robust security and authentication accuracy.',
+        githubLink: 'https://github.com/Tobi-Oladele/face-recognition-model'
     },
     {
         imageUrl: 'https://images.unsplash.com/photo-1563723103083-482d8c4e85c6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         title: 'Breast Cancer',
-        description: 'Created a predictive model for early detection of breast cancer based on medical data. This model assists healthcare professionals in diagnosing cancer at earlier stages, improving patient outcomes.',
-        githubLink: 'https://github.com/Tobi-Oladele/Breast-Cancer'
+        description: 'Built a neural network model for breast cancer classification, leveraging patient data to accurately predict malignancy or benignity, aiding early detection and improving diagnostic outcomes.',
+        githubLink: 'https://github.com/Tobi-Oladele/Breast-cancer-neural-network-classification'
     },
     {
-        imageUrl: 'https://images.unsplash.com/photo-1511452885600-a3d2c9148a31?q=80&w=1442&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        title: 'House-Prices',
-        description: 'A regression-based model to predict house prices using a combination of location, size, and other property features. This project aimed to help real estate professionals make more informed pricing decisions.',
-        githubLink: 'https://github.com/Tobi-Oladele/House-prices'
+        imageUrl: 'https://images.unsplash.com/photo-1600119330210-e7a3f5a0d079?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: 'Sonar VS Mine Dectection',
+        description: 'Developed a sonar-based classification model to distinguish between rocks and mines using machine learning, enhancing underwater object detection for safety and exploration.',
+        githubLink: 'https://github.com/Tobi-Oladele/sonar-rock-vs-mine-detection'
     },
     {
-        imageUrl: 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        title: 'Tree-Censure',
-        description: 'Developed a decision tree model to analyze and categorize complex datasets with high accuracy. This project focused on making sense of large-scale data for better decision-making in various industries.',
-        githubLink: 'https://github.com/Tobi-Oladele/Tree-Censure'
+        imageUrl: 'https://plus.unsplash.com/premium_photo-1701192908221-d0ae92edb257?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: 'Sales Trend Prediction',
+        description: 'Created a sales trend prediction model using time series analysis to forecast future sales, helping businesses optimize inventory, plan strategies, and boost profitability.',
+        githubLink: 'https://github.com/Tobi-Oladele/sales-trend-prediction'
     },
     {
-        imageUrl: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        title: 'Fashion-Generator',
-        description: 'Created a generative model capable of producing new and unique fashion designs based on existing trends. This project explores the creative intersection between machine learning and fashion design.',
-        githubLink: 'https://github.com/Tobi-Oladele/Fashion-generator'
+        imageUrl: 'https://plus.unsplash.com/premium_photo-1682310144714-cb77b1e6d64a?q=80&w=1512&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        title: 'Customer Segmentation',
+        description: 'Implemented a customer segmentation model using clustering algorithms to group customers by behavior and preferences, enabling targeted marketing and personalized experiences.',
+        githubLink: 'https://github.com/Tobi-Oladele/customer-segmentation'
     }
 ];
 
