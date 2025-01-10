@@ -14,7 +14,7 @@ export const Footer = () => {
         </div>
             </div>
 
-            <div><p className='text-customBlue text-xs md:text-sm'>2022 - 2024</p></div>
+            <div><p className='text-customBlue text-xs md:text-sm'>2022 - 2025</p></div>
         </div>
     </footer>
   )
